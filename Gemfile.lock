@@ -145,7 +145,8 @@ GEM
       coderay (~> 1.1)
       method_source (~> 1.0)
     public_suffix (5.0.1)
-    puma (3.12.6)
+    puma (6.0.2)
+      nio4r (~> 2.0)
     racc (1.6.2)
     rack (2.2.5)
     rack-test (2.0.2)
@@ -183,19 +184,16 @@ GEM
     rexml (3.2.5)
     ruby_dep (1.5.0)
     rubyzip (2.3.2)
-    sass (3.7.4)
-      sass-listen (~> 4.0.0)
-    sass-listen (4.0.0)
-      rb-fsevent (~> 0.9, >= 0.9.4)
-      rb-inotify (~> 0.9, >= 0.9.7)
-    sass-rails (5.0.7)
-      railties (>= 4.0.0, < 6)
-      sass (~> 3.1)
-      sprockets (>= 2.8, < 4.0)
-      sprockets-rails (>= 2.0, < 4.0)
-      tilt (>= 1.1, < 3)
+    sass-rails (6.0.0)
+      sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)
       ffi (~> 1.9)
+    sassc-rails (2.1.2)
+      railties (>= 4.0.0)
+      sassc (>= 2.0)
+      sprockets (> 3.0)
+      sprockets-rails
+      tilt
     selenium-webdriver (4.7.1)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
@@ -208,9 +206,9 @@ GEM
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
       spring (>= 1.2, < 3.0)
-    sprockets (3.7.2)
+    sprockets (4.2.0)
       concurrent-ruby (~> 1.0)
-      rack (> 1, < 3)
+      rack (>= 2.2.4, < 4)
     sprockets-rails (3.2.2)
       actionpack (>= 4.0)
       activesupport (>= 4.0)
@@ -249,24 +247,24 @@ DEPENDENCIES
   bulma-rails
   byebug
   capybara (~> 2.13)
-  coffee-rails (~> 4.2)
+  coffee-rails
   devise
   gravatar_image_tag
   guard
   guard-livereload
-  jbuilder (~> 2.5)
+  jbuilder
   listen (>= 3.0.5, < 3.2)
-  puma (~> 3.7)
+  puma
   rails (~> 5.1.4)
-  sass-rails (~> 5.0)
+  sass-rails
   selenium-webdriver
   simple_form
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3
-  turbolinks (~> 5)
+  turbolinks
   tzinfo-data
-  uglifier (>= 1.3.0)
+  uglifier
   web-console (>= 3.3.0)
 
 BUNDLED WITH
