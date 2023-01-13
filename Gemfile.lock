@@ -227,6 +227,7 @@ GEM
 
 PLATFORMS
   ruby
+  x86_64-linux
 
 DEPENDENCIES
   better_errors (~> 2.4)
